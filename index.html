@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkham Knight Batman</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="bg-dark text-light font-roboto">
+
+    <div class="fullscreen-slider">
+        <div class="fullscreen-slider">
+            <img src="" class="slide-image" alt="Initial Slide Image">
+        </div>
+
+        <div class="header-container">
+            <header class="flex justify-between items-center p-5">
+                <div class="batman-logo" alt="Batman Logo Placeholder"></div>
+                <nav class="md:block">
+                    <ul class="flex space-x-4 uppercase">
+                        <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Synopsis</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Gallery</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Cast</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Director</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center space-x-4">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-user"></i>
+                    <button class="menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </header>
+        </div>
+
+        <div class="slide-content">
+            <h1 class="text-6xl font-bold">Dark Knight</h1>
+            <h2 class="text-8xl font-bold tracking-tighter" style="color: #e92e2e;">Batman</h2>
+            <p class="max-w-xl mt-6">A Hero can be anyone. Even a man doing something as simple and reassuring
+                as putting a coat around a young boy's shoulders to let him know that the world hadn’t ended.</p>
+            <div class="flex space-x-8 mt-8">
+                <button class="read-more border border-white px-6 py-2 uppercase">Read more</button>
+                <button class="flex items-center uppercase">
+                    <span>Watch trailer</span>
+                    <i class="fas fa-play ml-2"></i>
+                </button>
+            </div>
+        </div>
+        <div class="slide-nav">
+            <button class="prev-btn text-white mx-2">Prev</button>
+            <div class="inline-flex space-x-1">
+                <div class="w-2 h-2 bg-white rounded-full"></div>
+                <!-- Repeat the dot for each slide -->
+            </div>
+            <button class="next-btn text-white mx-2">Next</button>
+        </div>
+    </div>
+
+    <footer class="flex justify-between items-center p-5 fixed bottom-0 w-full z-10">
+        <div class="flex items-center space-x-4">
+            <a href="#" class="hover:text-gray-300">Twitter</a>
+            <a href="#" class="hover:text-gray-300">Instagram</a>
+            <a href="#" class="hover:text-gray-300">Facebook</a>
+        </div>
+        <div class="text-xs">
+            <a href="https://www.dccomics.com/" class="hover:text-gray-300" alt="DC Logo Placeholder">DC</a>
+        </div>
+    </footer>
+
+    <section class="about">
+            <div class="container">
+                <div class="grid">
+                    <div class="left">
+                    </div>
+                    <div class="right">
+                        <h4>Action</h4>
+                        <h1>Synopsis</h1>
+                        <p>Now with the help of Lieutenant Jim Gordon and District Attorney Harvey Dent, Batman has what it takes to banish crime from
+                            Gotham City once and for all. But soon, the three will fall victim to the Joker, who intends to throw Gotham into anarchy.</p>
+                        <a href="#" class="btn">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="p-6">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-6 title2">Gallery</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+               
+                <div><img src="/assets/images/galeria1.png" alt="Gallery image 1" class="w-full h-auto"></div>
+                <div><img src="/assets/images/galeria2.png" alt="Gallery image 2" class="w-full h-auto"></div>
+                <div><img src="/assets/images/galeria3.png" alt="Gallery image 3" class="w-full h-auto"></div>
+                <div><img src="/assets/images/galeria4.png" alt="Gallery image 4" class="w-full h-auto"></div>
+                <div><img src="/assets/images/galeria5.png" alt="Gallery image 5" class="w-full h-auto"></div>
+                <div><img src="/assets/images/galeria6.png" alt="Gallery image 6" class="w-full h-auto"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark-100 py-8">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center mb-8 title2">Cast</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-dark rounded-lg overflow-hidden shadow-lg lc">
+                    <img src="/assets/images/actors1.png" alt="Profile picture" class="w-full object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Christian Bale</h3>
+                        <p class="text-sm text-red-600">Bruce Wayne</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-dark rounded-lg overflow-hidden shadow-lg lc">
+                    <img src="/assets/images/actors2.png" alt="Profile picture" class="w-full object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Heath Ledger</h3>
+                        <p class="text-sm text-red-600">The Joker</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-dark rounded-lg overflow-hidden shadow-lg lc">
+                    <img src="/assets/images/actors3.png" alt="Profile picture" class="w-full object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Cillian Murphy</h3>
+                        <p class="text-sm text-red-600">Scarecrow</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="director">
+        <div class="container">
+            <div class="grid">
+                <div class="right2">
+                    <h4>Director</h4>
+                    <h1>Christopher Nolan</h1>
+                    <p>Christopher Nolan has legions of devoted fans thanks to hits like <br>The Dark Knight, 
+                        Interstellar, and Oppenheimer. See how IMDb <br>users rank all of his feature films as director.</p>
+                    <a href="#" class="btn">About</a>
+                </div>
+                <div class="left2">
+                    <img src="/assets/images/director.png" alt="" class="directorimg">
+                </div>
+            </div>
+        </div>
+</section>
+
+    <script src="/assets/js/script.js"></script>
+
+</body>
+
+</html>
